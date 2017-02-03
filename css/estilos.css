@@ -1,0 +1,13 @@
+body{
+
+}
+
+header{
+  background-color: #5b7989;
+}
+
+header h1{
+  text-align: left;
+  font: white;
+  text-shadow: 2px #02010a;
+}
