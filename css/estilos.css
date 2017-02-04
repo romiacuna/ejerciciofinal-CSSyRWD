@@ -1,18 +1,47 @@
+a:link{
+  text-decoration: none;
+  color:white;
+}
+
+a:visited{
+  text-decoration: none;
+  color:white;
+}
+
 body{
   color: white;
 }
 
 header{
+  padding: 5px;
   background-color: #5b7989;
-  padding:10px;
-  height: 100px;
+  height: 90px;
   border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-flow: row;
+
 }
 
 header h1{
   text-align: left;
-  color: white;
-  text-shadow: 2px #02010a;
+  text-shadow: 2px 2px #02010a;
+
+}
+
+div.caja1{
+  width: 50%;
+  padding-top: 10px;
+}
+
+div.caja2{
+  word-spacing: 30px;
+  width: 50%;
+  text-align: right;
+  padding-top: 40px;
+}
+
+#contenido{
+
 }
