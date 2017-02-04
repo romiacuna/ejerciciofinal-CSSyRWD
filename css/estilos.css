@@ -1,13 +1,18 @@
 body{
-
+  color: white;
 }
 
 header{
   background-color: #5b7989;
+  padding:10px;
+  height: 100px;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
 }
 
 header h1{
   text-align: left;
-  font: white;
+  color: white;
   text-shadow: 2px #02010a;
 }
