@@ -1,6 +1,7 @@
 body{
   color: white;
   background-color: black;
+  font-family: 'Dancing Script', cursive;
 }
 
 header{
@@ -79,24 +80,38 @@ color:black;
 }
 
 #foto2{
+  border: 0px;
   transform: rotate(0deg);
-  -webkit-transition: transform 2s;
+  box-shadow: 0px 0px #82c3a6;
+  -webkit-transition-property: transform, border, box-shadow;
+  -webkit-transition-duration: 2s,2s,2s;
 }
 
 #foto2:hover{
+  border: 2px;
   transform: rotate(10deg);
-  transition-duration: 2s;
+  box-shadow: 2px 3px 5px #82c3a6;
+  -webkit-transition-property: transform, border, box-shadow;
+  -webkit-transition-duration: 2s,2s,2s;
+
+
 
 }
 
 #foto3{
   transform: translate(0px,0px);
-  -webkit-transition: transform 2s;
+  box-shadow: #82c3a6;
+  border: 0px;
+  -webkit-transition-duration: 2s,2s,2s;
 }
 
 #foto3:hover{
   transform: translate(20px,-5px);
-  transition-duration: 2s;
+  box-shadow: 2px 3px 5px #82c3a6;
+  border: 2px;
+  -webkit-transition-property: transform, border, box-shadow;
+  -webkit-transition-duration: 2s,2s,2s;
+
 }
 
 footer{
@@ -115,7 +130,8 @@ footer{
   flex-basis: 25%;
   display: flex;
   flex-flow: row;
-  
+  padding-bottom: 20px;
+
 }
 
 footer div{
