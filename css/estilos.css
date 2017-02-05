@@ -76,7 +76,6 @@ color:black;
   max-height:250px;
   border:1px;
   text-align: center;
-
 }
 
 #foto2{
@@ -98,4 +97,28 @@ color:black;
 #foto3:hover{
   transform: translate(20px,-5px);
   transition-duration: 2s;
+}
+
+footer{
+  background-color: #C6d5c5;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  padding-top: 10px;
+  min-height: 150px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:black;
+}
+
+#contenedorfooter{
+  flex-basis: 25%;
+  display: flex;
+  flex-flow: row;
+  
+}
+
+footer div{
+  margin-left: 2%;
+  margin-right: 2%;
 }
