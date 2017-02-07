@@ -11,8 +11,7 @@ body{
   margin-right: auto;
 }
 
-/* Estilos de index.html */
-
+/* Estilos del header*/
 header{
   padding: 10px;
   background-color: #5b7989;
@@ -27,7 +26,10 @@ header{
 
 header a{
 color: white;
-text-decoration: none;
+}
+
+.actual{
+  text-decoration: none;
 }
 
 header h1{
@@ -42,10 +44,11 @@ h1.caja1{
   text-align: center;
 }
 
+/* Estilos de index.html */
+
 div.caja1{
   margin-left: 1%;
   margin-right: 1%;
-  flex-basis:
 }
 
 div.caja2{
@@ -73,6 +76,7 @@ div.caja2{
 
 #fotosecundaria{
   background-color: #d5c75f;
+  border: 1px;
   display: flex;
   flex-flow: row;
   min-height: 200px;
@@ -139,6 +143,7 @@ img.foto1{
   -webkit-transition-duration: 2s,2s;
 }
 
+/* Estilos del header*/
 footer{
   background-color: #C6d5c5;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -153,15 +158,24 @@ footer{
 #contenedorfooter{
   display: flex;
   flex-flow: row;
+  justify-content: center;
   padding-bottom: 20px;
 }
+
+/* Iconos redes sociales */
+
+div.social > img{
+  width: 30px;
+  transform: translateY(5px);
+}
+
 
 footer div{
   margin-left: 2%;
   margin-right: 2%;
 }
 
-/* Estilos de paisajes.html en Desktop */
+/* Estilos de paisajes.html y retratos.html en Desktop */
 
 #galeria{
   background-color: #d5c75f;
@@ -198,6 +212,7 @@ footer div{
     width: 100%;
   }
 
+/* Estilos del header para móviles*/
   header{
     padding: 15px;
     background-color: #5b7989;
@@ -270,7 +285,7 @@ footer div{
     padding-bottom: 20px;
   }
 
-  /* Estilos de paisajes.html en móviles */
+  /* Estilos de paisajes.html y retratos.html en móviles */
 
   #galeria{
     background-color: #d5c75f;
@@ -289,4 +304,20 @@ footer div{
     margin: 5%;
   }
 
+}
+
+/* Animación Slide In para todos los dispositivos*/
+
+@-webkit-keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }60%{
+    margin-top: -5%;
+  }100%{
+    margin-top: 0%;
+  }
+}
+
+#contenido {
+  animation: slidein 2s;
 }
